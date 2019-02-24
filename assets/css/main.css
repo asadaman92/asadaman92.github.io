@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald|Staatliches);
+a,
+body,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+label,
+li,
+p,
+span,
+ul,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  color: rgba(255, 255, 255, 0.75);
+  width: 100%;
+  height: 100%;
+  background: #030e0f;
+  font-family: "Oswald", sans-serif;
+}
+p {
+  margin: 0 0 2em 0;
+}
+
+header {
+  position: absolute;
+  transform: translateZ(0);
+  bottom: 0;
+  margin: 60px;
+  text-shadow: #2b2b28 1px 0 10px;
+}
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+h1 {
+  font-size: 4.1em;
+  font-family: "Staatliches", cursive;
+}
+h2 {
+  font-size: 1em;
+}
+a.viewdemo {
+  display: block;
+  border: 1px solid;
+  color: #d9d8d7;
+  border: 1px solid #d9d8d7;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-shadow: none;
+}
+
+a.viewdemo:hover {
+  background: #d9d8d7;
+  color: #030e0f;
+}
+
+.hidden {
+  display: none;
+}
+
+.demoreel-close {
+	top: 19px;
+	position: absolute;
+	color: white;
+	font-size: 12px;
+	z-index: 10;
+	right: 50px;
+	cursor: pointer;
+}
